@@ -22,7 +22,7 @@ spec:
   source:
     repoURL: https://github.com/plum7ree/distributed-priority-queue/tree/main
     targetRevision: HEAD
-    path: .
+    path: ./infra
   destination:
     server: https://kubernetes.default.svc
     namespace: default
